@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Tic Tac Toe</h1>
+            <div>
+            <label>Enter Player 1 name</label>
+            <input type="text" name="player_1" id="player_1">
+            <button type="button" name="submit" id="sub_play_1" onclick="subPlay1()">Submit</button>
+            </div>
+            <div>
+            <label>Enter Player 2 name</label>
+            <input type="text" name="player_2" id="player_2">
+            <button type="button" name="submit" id="sub_play_2" onclick="subPlay2()">Submit</button>
+            </div>
+            <div>
+                <button type="button" name="start" id="start" onclick="start()">Start</button>
+            </div>
+        </div>
+        <table>
+            <tr id="row_1">
+                <td id="col_11"><button type="button" id="btn_11" onclick="fill11()" class="inner_btn">X</button></td>
+                <td id="col_12"><button type="button" id="btn_12" onclick="fill12()" class="inner_btn">X</button></td>
+                <td id="col_13"><button type="button" id="btn_13" onclick="fill13()"  class="inner_btn">X</button></td>
+            </tr>
+            <tr id="row_2">
+                <td id="col_21"><button type="button" id="btn_21" onclick="fill21()" class="inner_btn">X</button></td>
+                <td id="col_22"><button type="button" id="btn_22" onclick="fill22()" class="inner_btn">X</button></td>
+                <td id="col_23"><button type="button" id="btn_23" onclick="fill23()" class="inner_btn">X</button></td>
+            </tr>
+            <tr id="row_3">
+                <td id="col_31"><button type="button" id="btn_31" onclick="fill31()" class="inner_btn">X</button></td>
+                <td id="col_32"><button type="button" id="btn_32" onclick="fill32()" class="inner_btn">X</button></td>
+                <td id="col_33"><button type="button" id="btn_33" onclick="fill33()" class="inner_btn">X</button></td>
+            </tr>
+        </table>
+    </body>
+</html>

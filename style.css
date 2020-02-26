@@ -1,0 +1,26 @@
+tr,td{
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+table{
+    padding: 10px;
+    margin: auto;
+}
+div{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+#col_12, #col_22, #col_32{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#col_21, #col_22, #col_23{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+body{
+    background-color: cornflowerblue;
+}
